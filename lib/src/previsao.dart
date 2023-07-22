@@ -8,6 +8,7 @@ class previsaoApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Previsão do Tempo',
+      theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
       home: Home(),
     );
